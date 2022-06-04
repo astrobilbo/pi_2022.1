@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3878255438069767872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7c4643be973949ae6ee7ba56548ec, type: 3}
+  m_Name: eb1bb680-cbd8-4662-b38e-9e397aed7ac0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  characterSpeaking: 0
+  text: "Diego \xE9 um policial el\xE9trico, um policial que protege as fontes de
+    energia no espa\xE7o, que descobriu a localiza\xE7\xE3o da base principal dos
+    Gatunos, os maiores ladr\xF5es de energia do universo. "
+  children:
+  - a58e8160-8613-43e8-95c0-58f0384d308c
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca589bf311ba84aa31cedded942b76, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  Characters:
+  - Narrador
+  defaultCharacterElement: 0
+  nodes:
+  - {fileID: -3878255438069767872}
+  - {fileID: 8814980467964010972}
+  - {fileID: 6104158569117463262}
+  newNodeOffset: {x: 200, y: 0}
+--- !u!114 &6104158569117463262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7c4643be973949ae6ee7ba56548ec, type: 3}
+  m_Name: aad3131a-43e7-45e2-9397-d3ff52efb73b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  characterSpeaking: 0
+  text: Carregando o jogo ...
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 400
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: GoGame
+  onExitAction: 
+--- !u!114 &8814980467964010972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7c4643be973949ae6ee7ba56548ec, type: 3}
+  m_Name: a58e8160-8613-43e8-95c0-58f0384d308c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  characterSpeaking: 0
+  text: "Por\xE9m antes que conseguisse dar essa informa\xE7\xE3o para os colegas
+    policiais Diego foi emboscado e sua nave foi seriamente danificada, sendo for\xE7ado
+    a parar em um planeta abandonado chamado Forgek."
+  children:
+  - aad3131a-43e7-45e2-9397-d3ff52efb73b
+  rect:
+    serializedVersion: 2
+    x: 200
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GoGame

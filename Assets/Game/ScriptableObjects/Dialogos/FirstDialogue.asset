@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7251041495878376978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7c4643be973949ae6ee7ba56548ec, type: 3}
+  m_Name: d15410d1-9aa1-4091-b1e4-919e123cfa08
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  characterSpeaking: 0
+  text: P9, tudo bem?
+  children:
+  - 600e3eb2-53dc-428c-8aa8-a934716c8d61
+  rect:
+    serializedVersion: 2
+    x: 800
+    y: -2
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4389696473163674590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7c4643be973949ae6ee7ba56548ec, type: 3}
+  m_Name: 286f65b3-6dca-4dbe-b104-38c91864a17b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  characterSpeaking: 1
+  text: "Materiais necess\xE1rios encontrados em abund\xE2ncia a frente e ap\xF3s
+    coleta buscar mesa de atualiza\xE7\xF5es."
+  children:
+  - 3e1e64c9-a5ad-4d18-b47a-bc61deb78fdf
+  rect:
+    serializedVersion: 2
+    x: 1202
+    y: -7
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-3822766696989234139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7c4643be973949ae6ee7ba56548ec, type: 3}
+  m_Name: 600e3eb2-53dc-428c-8aa8-a934716c8d61
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  characterSpeaking: 1
+  text: "Energia chegando ao fim, reparo imediato necess\xE1rio."
+  children:
+  - 286f65b3-6dca-4dbe-b104-38c91864a17b
+  rect:
+    serializedVersion: 2
+    x: 1002
+    y: -7
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca589bf311ba84aa31cedded942b76, type: 3}
+  m_Name: FirstDialogue
+  m_EditorClassIdentifier: 
+  Characters:
+  - Diego
+  - P9
+  defaultCharacterElement: 0
+  nodes:
+  - {fileID: 5693353694706968309}
+  - {fileID: 4196345936455187595}
+  - {fileID: 5916001396297442476}
+  - {fileID: 4414543668768949879}
+  - {fileID: -7251041495878376978}
+  - {fileID: -3822766696989234139}
+  - {fileID: -4389696473163674590}
+  - {fileID: 7016606121813640801}
+  - {fileID: 5941474361003756335}
+  newNodeOffset: {x: 200, y: 0}
+--- !u!114 &4196345936455187595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7c4643be973949ae6ee7ba56548ec, type: 3}
+  m_Name: 189580e7-70ec-416d-9158-fc29b0bb8143
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  characterSpeaking: 1
+  text: "Extremamente danificada, comunica\xE7\xF5es offline. Recomendado buscar
+    o ponto de extra\xE7\xE3o para sair do planeta.\r"
+  children:
+  - f45d12dd-0c88-4fac-ab12-1d6f12a2e5c8
+  rect:
+    serializedVersion: 2
+    x: 200
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4414543668768949879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7c4643be973949ae6ee7ba56548ec, type: 3}
+  m_Name: e9d36bc0-6118-46bf-9d1d-a8ef774359b4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  characterSpeaking: 1
+  text: "\u2026\u2026\u2026"
+  children:
+  - d15410d1-9aa1-4091-b1e4-919e123cfa08
+  rect:
+    serializedVersion: 2
+    x: 600
+    y: -1
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5693353694706968309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7c4643be973949ae6ee7ba56548ec, type: 3}
+  m_Name: 4d93b2cc-5dba-40d0-86fe-4293930ab934
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  characterSpeaking: 0
+  text: "P9 situa\xE7\xE3o da nave."
+  children:
+  - 189580e7-70ec-416d-9158-fc29b0bb8143
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5916001396297442476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7c4643be973949ae6ee7ba56548ec, type: 3}
+  m_Name: f45d12dd-0c88-4fac-ab12-1d6f12a2e5c8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  characterSpeaking: 0
+  text: "Onde \xE9 o ponto de extra\xE7\xE3o desse planeta?"
+  children:
+  - e9d36bc0-6118-46bf-9d1d-a8ef774359b4
+  rect:
+    serializedVersion: 2
+    x: 400
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5941474361003756335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7c4643be973949ae6ee7ba56548ec, type: 3}
+  m_Name: 8944771a-959d-40de-988f-1544bef4af72
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  characterSpeaking: 1
+  text: "Use as teclas W e S para movimentar, A e S para virar o personagem, o mouse
+    para rotacionar a c\xE2mera e o bot\xE3o esquerdo para o ataque leve e pesado."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1618
+    y: 2
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &7016606121813640801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7c4643be973949ae6ee7ba56548ec, type: 3}
+  m_Name: 3e1e64c9-a5ad-4d18-b47a-bc61deb78fdf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  characterSpeaking: 0
+  text: "Aguente parceiro, j\xE1 estou indo."
+  children:
+  - 8944771a-959d-40de-988f-1544bef4af72
+  rect:
+    serializedVersion: 2
+    x: 1415
+    y: 2
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
